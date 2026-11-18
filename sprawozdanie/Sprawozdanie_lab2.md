@@ -1,6 +1,6 @@
 # Sprawozdanie 2 – ACF, własne typy treści i bloki
 
-**Zespół:** _imię nazwisko_, _imię nazwisko_
+**Autorzy:** Mateusz Łagocki, Yaroslaw Pankewytch
 **Projekt:** autorski motyw WordPress sklepu internetowego **BeanBox** (kawa speciality i akcesoria)
 **Repozytorium:** https://github.com/Mateuszl28/beanbox (tag `lab2`)
 **Środowisko:** Local (WordPress 7.1, PHP 8.2, nginx, MySQL), Secure Custom Fields 6.9 (SCF), WooCommerce 11.2

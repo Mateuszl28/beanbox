@@ -1,5 +1,7 @@
 # BeanBox – autorski motyw WordPress + WooCommerce (CMS)
 
+**Autorzy:** Mateusz Łagocki, Yaroslaw Pankewytch
+
 Sklep internetowy **BeanBox** (kawa speciality, akcesoria, sprzęt) – ten sam scenariusz co w projekcie APPDB
 (n8n + AI). Katalog produktów pochodzi z APPDB (`data/out/produkty.csv`), SKU = `P001…P025`, więc na zajęciach 4
 SKU jest kluczem synchronizacji z arkuszem Google.

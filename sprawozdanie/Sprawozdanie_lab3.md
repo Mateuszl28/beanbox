@@ -1,6 +1,6 @@
 # Sprawozdanie 3 – WooCommerce w autorskim motywie
 
-**Zespół:** _imię nazwisko_, _imię nazwisko_
+**Autorzy:** Mateusz Łagocki, Yaroslaw Pankewytch
 **Projekt:** sklep internetowy **BeanBox** – motyw `beanbox`
 **Repozytorium:** https://github.com/Mateuszl28/beanbox (tag `lab3`)
 **Środowisko:** Local (WordPress 7.1, PHP 8.2), WooCommerce 11.2, Secure Custom Fields 6.9, Query Monitor 4.0
