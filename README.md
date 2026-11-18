@@ -47,3 +47,11 @@ bash narzedzia/wp.sh eval-file narzedzia/konfiguracja-strony.php --user=admin
   nigdzie nie ma `the_field()`;
 - zmiany w WooCommerce przez hooki; nadpisanie szablonu tylko tam, gdzie nie ma akcji;
 - CSS mobile first (`min-width`), cele dotykowe ≥ 44 px.
+
+## Przygotowanie do zajęć 4 (Google Sheets)
+- Projekt Google Cloud z włączonym **Google Sheets API** i **kontem usługi**; klucz JSON leży **poza repozytorium**
+  (`%USERPROFILE%\.secrets\…`, ścieżka w zmiennej `BEANBOX_SA_KEY`; `.gitignore` blokuje pliki kluczy).
+- Arkusz Google z zakładkami **Zamowienia** i **Produkty**, udostępniony adresowi e-mail konta usługi jako **Edytor**
+  (ID arkusza w zmiennej `BEANBOX_SHEET_ID` – nie zapisujemy go w kodzie).
+- Test: `python narzedzia/test_arkusza.py` – dostęp do arkusza, nagłówki zakładek i zgodność SKU
+  (25/25 SKU z zakładki Produkty = SKU produktów WooCommerce, więc synchronizacja może iść po SKU).
