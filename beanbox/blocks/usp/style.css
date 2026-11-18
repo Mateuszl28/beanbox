@@ -1,0 +1,37 @@
+.usp__grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 1.25rem;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+@media (min-width: 640px) {
+	.usp__grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 1024px) {
+	.usp__grid { grid-template-columns: repeat(4, 1fr); }
+}
+.usp__item {
+	padding: 1.5rem;
+	background: #fff;
+	border: 1px solid #eadfd4;
+	border-radius: 14px;
+}
+.usp__icon {
+	display: inline-grid;
+	place-items: center;
+	width: 3rem;
+	height: 3rem;
+	font-size: 1.5rem;
+	background: #f6eee6;
+	border-radius: 50%;
+}
+.usp__title {
+	margin: 1rem 0 .4rem;
+	font-size: 1.1rem;
+}
+.usp__text {
+	margin: 0;
+	color: #6b5446;
+}

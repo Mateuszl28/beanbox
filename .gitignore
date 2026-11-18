@@ -1,0 +1,11 @@
+# klucze i sekrety – NIGDY do repozytorium (klucz konta usługi Google na zajęcia 4)
+*.json.key
+*service-account*.json
+.env
+# pliki systemowe / edytora
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+__pycache__/
+~$*

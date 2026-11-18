@@ -1,0 +1,16 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "acf/faq",
+	"title": "FAQ",
+	"description": "Pytania i odpowiedzi z typu treści „FAQ” + dane strukturalne FAQPage (JSON-LD).",
+	"category": "beanbox",
+	"icon": "editor-help",
+	"keywords": [ "faq", "pytania", "pomoc" ],
+	"acf": {
+		"mode": "preview",
+		"renderTemplate": "render.php"
+	},
+	"supports": { "anchor": true, "align": false, "html": false, "multiple": false },
+	"style": "file:./style.css"
+}

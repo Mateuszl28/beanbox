@@ -1,0 +1,408 @@
+{
+    "key": "group_bb_blok_usp",
+    "title": "Blok: Przewagi (USP)",
+    "fields": [
+        {
+            "key": "field_bb_usp_title",
+            "label": "Nagłówek sekcji (opcjonalny)",
+            "name": "title",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_bb_usp_usp_1",
+            "label": "Przewaga 1",
+            "name": "usp_1",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_bb_usp1_icon",
+                    "label": "Ikona",
+                    "name": "icon",
+                    "aria-label": "",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "bean": "☕ Kawa",
+                        "truck": "🚚 Dostawa",
+                        "fire": "🔥 Świeże palenie",
+                        "leaf": "🌱 Ekologia",
+                        "gift": "🎁 Prezent",
+                        "return": "↩ Zwrot"
+                    },
+                    "default_value": "bean",
+                    "return_format": "value",
+                    "ui": 0,
+                    "multiple": 0,
+                    "allow_null": 0,
+                    "ajax": 0,
+                    "placeholder": "",
+                    "create_options": 0,
+                    "save_options": 0
+                },
+                {
+                    "key": "field_bb_usp1_title",
+                    "label": "Tytuł",
+                    "name": "title",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "maxlength": 40,
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_bb_usp1_text",
+                    "label": "Opis",
+                    "name": "text",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "rows": 2,
+                    "maxlength": 140,
+                    "new_lines": "",
+                    "default_value": "",
+                    "placeholder": ""
+                }
+            ]
+        },
+        {
+            "key": "field_bb_usp_usp_2",
+            "label": "Przewaga 2",
+            "name": "usp_2",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_bb_usp2_icon",
+                    "label": "Ikona",
+                    "name": "icon",
+                    "aria-label": "",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "bean": "☕ Kawa",
+                        "truck": "🚚 Dostawa",
+                        "fire": "🔥 Świeże palenie",
+                        "leaf": "🌱 Ekologia",
+                        "gift": "🎁 Prezent",
+                        "return": "↩ Zwrot"
+                    },
+                    "default_value": "bean",
+                    "return_format": "value",
+                    "ui": 0,
+                    "multiple": 0,
+                    "allow_null": 0,
+                    "ajax": 0,
+                    "placeholder": "",
+                    "create_options": 0,
+                    "save_options": 0
+                },
+                {
+                    "key": "field_bb_usp2_title",
+                    "label": "Tytuł",
+                    "name": "title",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "maxlength": 40,
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_bb_usp2_text",
+                    "label": "Opis",
+                    "name": "text",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "rows": 2,
+                    "maxlength": 140,
+                    "new_lines": "",
+                    "default_value": "",
+                    "placeholder": ""
+                }
+            ]
+        },
+        {
+            "key": "field_bb_usp_usp_3",
+            "label": "Przewaga 3",
+            "name": "usp_3",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_bb_usp3_icon",
+                    "label": "Ikona",
+                    "name": "icon",
+                    "aria-label": "",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "bean": "☕ Kawa",
+                        "truck": "🚚 Dostawa",
+                        "fire": "🔥 Świeże palenie",
+                        "leaf": "🌱 Ekologia",
+                        "gift": "🎁 Prezent",
+                        "return": "↩ Zwrot"
+                    },
+                    "default_value": "bean",
+                    "return_format": "value",
+                    "ui": 0,
+                    "multiple": 0,
+                    "allow_null": 0,
+                    "ajax": 0,
+                    "placeholder": "",
+                    "create_options": 0,
+                    "save_options": 0
+                },
+                {
+                    "key": "field_bb_usp3_title",
+                    "label": "Tytuł",
+                    "name": "title",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "maxlength": 40,
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_bb_usp3_text",
+                    "label": "Opis",
+                    "name": "text",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "rows": 2,
+                    "maxlength": 140,
+                    "new_lines": "",
+                    "default_value": "",
+                    "placeholder": ""
+                }
+            ]
+        },
+        {
+            "key": "field_bb_usp_usp_4",
+            "label": "Przewaga 4",
+            "name": "usp_4",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_bb_usp4_icon",
+                    "label": "Ikona",
+                    "name": "icon",
+                    "aria-label": "",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "bean": "☕ Kawa",
+                        "truck": "🚚 Dostawa",
+                        "fire": "🔥 Świeże palenie",
+                        "leaf": "🌱 Ekologia",
+                        "gift": "🎁 Prezent",
+                        "return": "↩ Zwrot"
+                    },
+                    "default_value": "bean",
+                    "return_format": "value",
+                    "ui": 0,
+                    "multiple": 0,
+                    "allow_null": 0,
+                    "ajax": 0,
+                    "placeholder": "",
+                    "create_options": 0,
+                    "save_options": 0
+                },
+                {
+                    "key": "field_bb_usp4_title",
+                    "label": "Tytuł",
+                    "name": "title",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "maxlength": 40,
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_bb_usp4_text",
+                    "label": "Opis",
+                    "name": "text",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "rows": 2,
+                    "maxlength": 140,
+                    "new_lines": "",
+                    "default_value": "",
+                    "placeholder": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/usp"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "display_title": "",
+    "allow_ai_access": false,
+    "ai_description": "",
+    "modified": 1795036860
+}

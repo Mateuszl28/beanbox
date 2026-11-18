@@ -1,0 +1,39 @@
+.opinie-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 1.25rem;
+	margin-bottom: 2rem;
+}
+@media (min-width: 768px) {
+	.opinie-grid { grid-template-columns: repeat(3, 1fr); }
+}
+.opinia-card {
+	display: flex;
+	flex-direction: column;
+	gap: .6rem;
+	padding: 1.5rem;
+	background: #fff;
+	border-radius: 14px;
+	box-shadow: 0 2px 10px rgba(59, 36, 24, .08);
+}
+.opinia-card__text {
+	margin: 0;
+	font-style: italic;
+	color: #3b2418;
+}
+.opinia-card__author {
+	margin: auto 0 0;
+	font-weight: 700;
+}
+.opinia-card__city,
+.opinia-card__product {
+	display: block;
+	margin: 0;
+	font-size: .9rem;
+	font-weight: 400;
+	color: #6b5446;
+}
+.stars {
+	color: #c8862a;
+	letter-spacing: 2px;
+}

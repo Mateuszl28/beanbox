@@ -1,0 +1,14 @@
+/*
+Theme Name: BeanBox
+Author: Zespół BeanBox
+Description: Autorski motyw sklepu internetowego BeanBox (kawa speciality i akcesoria) – bloki ACF, własne typy treści (opinie, FAQ), dane globalne w Customizerze. Bez page buildera.
+Version: 0.2.0
+Requires at least: 6.5
+Tested up to: 6.8
+Requires PHP: 8.1
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: beanbox
+*/
+
+/* Style motywu są w assets/css/main.css (ładowane przez wp_enqueue_style w inc/assets.php). */
