@@ -74,3 +74,20 @@ group("opinia", "Opinia – szczegóły", [
     f("opinia", "produkt", "Produkt", "post_object", post_type=["product"], return_format="id", allow_null=1,
       multiple=0, ui=1),
 ], [[{"param": "post_type", "operator": "==", "value": "opinia"}]])
+
+# --- Laboratorium 3: WooCommerce ------------------------------------------------
+group("produkt", "Produkt – dodatkowe", [
+    f("produkt", "sklad", "Skład / opis ziarna", "wysiwyg", tabs="visual", toolbar="basic", media_upload=0,
+      instructions="Wyświetlane w zakładce „Skład i pochodzenie”."),
+    f("produkt", "pochodzenie", "Pochodzenie (kraj, region)", "text", width="50"),
+    f("produkt", "stopien_palenia", "Stopień palenia", "select", width="50",
+      choices={"": "— nie dotyczy —", "jasne": "Jasne (filtr)", "srednie": "Średnie (omni)", "ciemne": "Ciemne (espresso)"},
+      return_format="label", allow_null=1),
+    f("produkt", "nuty_smakowe", "Nuty smakowe", "text", instructions="Np. „czekolada, orzech, karmel”."),
+    f("produkt", "czas_realizacji", "Czas realizacji (dni robocze)", "number", min=0, max=30, default_value=2, width="50"),
+], [[{"param": "post_type", "operator": "==", "value": "product"}]], order=1)
+
+group("kategoria_baner", "Kategoria produktu – baner", [
+    f("kat", "baner", "Baner kategorii", "image", return_format="id", preview_size="medium", library="all"),
+    f("kat", "baner_tekst", "Hasło na banerze", "text", maxlength=90),
+], [[{"param": "taxonomy", "operator": "==", "value": "product_cat"}]])

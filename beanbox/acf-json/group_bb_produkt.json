@@ -1,0 +1,140 @@
+{
+    "key": "group_bb_produkt",
+    "title": "Produkt – dodatkowe",
+    "fields": [
+        {
+            "key": "field_bb_produkt_sklad",
+            "label": "Skład \/ opis ziarna",
+            "name": "sklad",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "Wyświetlane w zakładce „Skład i pochodzenie”.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "tabs": "visual",
+            "toolbar": "basic",
+            "media_upload": 0,
+            "default_value": "",
+            "delay": 0
+        },
+        {
+            "key": "field_bb_produkt_pochodzenie",
+            "label": "Pochodzenie (kraj, region)",
+            "name": "pochodzenie",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_bb_produkt_stopien_palenia",
+            "label": "Stopień palenia",
+            "name": "stopien_palenia",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "": "— nie dotyczy —",
+                "jasne": "Jasne (filtr)",
+                "srednie": "Średnie (omni)",
+                "ciemne": "Ciemne (espresso)"
+            },
+            "return_format": "label",
+            "allow_null": 1,
+            "multiple": 0,
+            "default_value": false,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "create_options": 0,
+            "save_options": 0
+        },
+        {
+            "key": "field_bb_produkt_nuty_smakowe",
+            "label": "Nuty smakowe",
+            "name": "nuty_smakowe",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Np. „czekolada, orzech, karmel”.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_bb_produkt_czas_realizacji",
+            "label": "Czas realizacji (dni robocze)",
+            "name": "czas_realizacji",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "min": 0,
+            "max": 30,
+            "default_value": 2,
+            "step": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "product"
+            }
+        ]
+    ],
+    "menu_order": 1,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "display_title": "",
+    "allow_ai_access": false,
+    "ai_description": "",
+    "modified": 1795037755
+}

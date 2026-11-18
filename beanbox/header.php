@@ -53,6 +53,13 @@ $beanbox_promo = beanbox_option( 'promo' );
 			?>
 		</nav>
 
+		<?php if ( function_exists( 'WC' ) && WC()->cart ) : ?>
+			<a class="cart-link" href="<?php echo esc_url( wc_get_cart_url() ); ?>">
+				<span class="cart-link__icon" aria-hidden="true">🛒</span>
+				<?php esc_html_e( 'Koszyk', 'beanbox' ); ?>
+				<span class="cart-count"><?php echo esc_html( WC()->cart->get_cart_contents_count() ); ?></span>
+			</a>
+		<?php endif; ?>
 	</div>
 </header>
 
